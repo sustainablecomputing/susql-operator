@@ -1,0 +1,52 @@
+---
+apiVersion: susql.ibm.com/v1
+kind: LabelGroup
+metadata:
+    name: susql-demo-1-all
+    namespace: fms
+spec:
+    labels:
+        - susql-demo-1
+---
+apiVersion: susql.ibm.com/v1
+kind: LabelGroup
+metadata:
+    name: susql-demo-1-training
+    namespace: fms
+spec:
+    labels:
+        - susql-demo-1
+        - susql-demo-training
+---
+apiVersion: susql.ibm.com/v1
+kind: LabelGroup
+metadata:
+    name: susql-demo-1-tgis
+    namespace: fms
+spec:
+    labels:
+        - susql-demo-1
+        - susql-demo-fmperf
+        - susql-demo-tgis
+---
+apiVersion: susql.ibm.com/v1
+kind: LabelGroup
+metadata:
+    name: susql-demo-1-loadgen
+    namespace: fms
+spec:
+    labels:
+        - susql-demo-1
+        - susql-demo-fmperf
+        - susql-demo-loadgen
+---
+apiVersion: susql.ibm.com/v1
+kind: LabelGroup
+metadata:
+    name: susql-demo-1-inference
+    namespace: fms
+spec:
+    labels:
+        - susql-demo-1
+        - susql-demo-inference
+---
