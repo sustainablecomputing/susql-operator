@@ -2,15 +2,6 @@
 apiVersion: susql.ibm.com/v1
 kind: LabelGroup
 metadata:
-    name: susql-demo-1-all
-    namespace: fms
-spec:
-    labels:
-        - susql-demo-1
----
-apiVersion: susql.ibm.com/v1
-kind: LabelGroup
-metadata:
     name: susql-demo-1-training
     namespace: fms
 spec:
