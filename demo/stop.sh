@@ -11,4 +11,4 @@ cd -
 
 sleep 5
 
-oc delete -f labelgroups-demo1.yaml --ignore-not-found=false
+# oc delete -f labelgroups-demo1.yaml --ignore-not-found=false
